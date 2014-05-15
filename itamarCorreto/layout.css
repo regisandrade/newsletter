@@ -1,0 +1,95 @@
+body{
+	margin:0; 
+	padding:0;
+	background:#ddd;
+	font:75%/1.4 Verdana, Arial, Helvetica, sans-serif;
+}
+#topo{
+	background: url("imagens/topo.jpg") no-repeat;
+	height: 232px;
+	width: 600px;
+}
+#meio{
+	background: url("imagens/fundo.jpg") repeat;
+	width: 600px;
+}
+.anuncio{
+	background-color: #FFF;
+	width: 504px;
+	height: 184px;
+	position: relative;
+	left: 48px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+	border: solid 1px #CCC;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+ 			border-radius: 4px;
+}
+.anuncio-destaque{
+	background-color: #FFF;
+	width: 504px;
+	height: 480px;
+	position: relative;
+	left: 48px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+	border: solid 1px #CCC;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+ 			border-radius: 4px;
+}
+#img-destaque{
+	width: 490px;
+	height: 299px;
+	margin: 5px;
+	float: left;
+	border-width: 1px;
+	border-style: dashed;
+	border-color: #ddd;
+}
+.anuncio-destaque h2{
+	font-size: 33px;
+	text-align: center;
+}
+.anuncio-destaque p{
+	margin: 5px;
+}
+.anuncio-destaque p strong{
+	text-align: center;
+	font-size: 22px;
+	color: #8C4600;
+	display: block;
+}
+#rodape{
+	background: url("imagens/rodape.jpg") no-repeat;
+	height: 144px;
+	width: 600px;
+}
+img{
+	width: 170px;
+	height: 170px;
+	margin: 5px;
+	float: left;
+	border-width: 1px;
+	border-style: dashed;
+	border-color: #ddd;
+}
+h2{
+	margin: 0px;
+	color: #003f30;
+}
+h3{
+	margin: 0px;
+	float: right;
+	color: #8C4600;
+	margin-right: 10px;
+	font-size: 28px;
+}
+span{
+	float: right;
+	color: #8C4600;
+	margin-right: 10px;
+}
