@@ -50,18 +50,24 @@ body{
 	border-style: dashed;
 	border-color: #ddd;
 }
-.anuncio-destaque h2{
-	font-size: 33px;
+.anuncio-destaque h1{
+	color: #003f30;
 	text-align: center;
+	margin: 0px;
 }
 .anuncio-destaque p{
 	margin: 5px;
 }
 .anuncio-destaque p strong{
 	text-align: center;
-	font-size: 22px;
+	font-size: 20px;
 	color: #8C4600;
 	display: block;
+}
+.p-valor{
+	margin-top: 13px;
+	position: relative;
+	left: 12px;
 }
 #rodape{
 	background: url("imagens/rodape.jpg") no-repeat;
