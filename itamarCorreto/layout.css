@@ -109,9 +109,23 @@ body{
 	font-size: 13px;
 }
 #rodape{
-	background: url("imagens/rodape.jpg") no-repeat;
+	background: url("imagens/fundo.jpg") repeat;
 	height: 144px;
 	width: 600px;
+}
+#rodape span {
+	text-align: center;
+}
+.telefone h1 {
+	margin: 0px;
+	color: #003f30;
+	text-align: center;
+}
+.endereco {
+	margin-top: 5px;
+	color: #003f30;
+	position: relative;
+	left: 160px;
 }
 img{
 	width: 170px;
