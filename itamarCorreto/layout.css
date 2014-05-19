@@ -2,7 +2,7 @@ body{
 	margin:0; 
 	padding:0;
 	background:#ddd;
-	font:75%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 #topo{
 	background: url("imagens/topo.jpg") no-repeat;
@@ -15,10 +15,10 @@ body{
 }
 .anuncio{
 	background-color: #FFF;
-	width: 504px;
+	width: 578px;
 	height: 184px;
 	position: relative;
-	left: 48px;
+	left: 10px;
 	-webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
@@ -27,12 +27,31 @@ body{
 	-webkit-border-radius: 4px;
  			border-radius: 4px;
 }
+.anuncio p {
+	font-size: 13px;
+	margin: 3px 3px 0 3px;
+}
+.anuncio h3 {
+	color: #003f30;
+	margin: 3px 0 0 0;
+}
+.anuncio h4 {
+	margin: 0 10px 3px 0;
+	float: right;
+	color: #8C4600;
+}
+.anuncio span{
+	float: right;
+	color: #8C4600;
+	margin-right: 10px;
+	font-size: 13px;
+}
 .anuncio-destaque{
 	background-color: #FFF;
-	width: 504px;
-	height: 480px;
+	width: 578px;
+	height: 505px;
 	position: relative;
-	left: 48px;
+	left: 10px;
 	-webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
@@ -42,8 +61,8 @@ body{
  			border-radius: 4px;
 }
 #img-destaque{
-	width: 490px;
-	height: 299px;
+	width: 565px;
+	height: 345px;
 	margin: 5px;
 	float: left;
 	border-width: 1px;
@@ -55,8 +74,14 @@ body{
 	text-align: center;
 	margin: 0px;
 }
+.anuncio-destaque h4 {
+	margin: 0 10px 3px 0;
+	float: right;
+	color: #8C4600;
+}
 .anuncio-destaque p{
-	margin: 5px;
+	font-size: 13px;
+	margin: 3px 5px 0 5px;
 }
 .anuncio-destaque p strong{
 	text-align: center;
@@ -64,10 +89,24 @@ body{
 	color: #8C4600;
 	display: block;
 }
+.anuncio-destaque span{
+	float: right;
+	color: #8C4600;
+	margin-right: 10px;
+	font-size: 13px;
+}
+.anuncio-destaque #titulo{
+	display: block;
+	color: #003f30;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
 .p-valor{
 	margin-top: 13px;
 	position: relative;
 	left: 12px;
+	font-size: 13px;
 }
 #rodape{
 	background: url("imagens/rodape.jpg") no-repeat;
@@ -82,20 +121,4 @@ img{
 	border-width: 1px;
 	border-style: dashed;
 	border-color: #ddd;
-}
-h2{
-	margin: 0px;
-	color: #003f30;
-}
-h3{
-	margin: 0px;
-	float: right;
-	color: #8C4600;
-	margin-right: 10px;
-	font-size: 28px;
-}
-span{
-	float: right;
-	color: #8C4600;
-	margin-right: 10px;
 }
